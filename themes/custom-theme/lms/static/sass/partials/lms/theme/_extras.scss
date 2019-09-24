@@ -11,6 +11,11 @@
     .outer-wrapper {
       background-size: cover;
       background-image: $hero-banner-image;
+      max-width: none;
     }
+    .title {
+      box-shadow: none;
+      background: none;
+      color: $white;
   }
 }
