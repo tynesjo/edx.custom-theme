@@ -16,4 +16,5 @@ $font-family-sans-serif: cursive;
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
 
+$static-path: '..' !default;
 $hero-banner-image: url('#{$static-path}/images/hero-banner.jpg') !default;
