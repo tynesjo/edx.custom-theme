@@ -7,6 +7,7 @@
 // rules into modular pieces.
 
 .home {
+
   > header {
     .outer-wrapper {
       background-size: cover;
@@ -17,7 +18,7 @@
     .title {
       box-shadow: none;
       background: none;
-      color: $white;
+      color: $hero_text_color;
     }
   }
 }
