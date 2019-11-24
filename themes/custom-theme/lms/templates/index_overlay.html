@@ -5,5 +5,4 @@ from django.utils.translation import ugettext as _
 from openedx.core.djangolib.markup import HTML, Text
 %>
 
-<h1>${Text(_(u"{mdash} Now we can do more{sm}")).format(mdash=HTML("&mdash;"), sm=HTML("<sup style='font-size: 65%'>&#8480;</sup>"))}</h1>
-<p>${Text(_(u"{platform_name} is a research and development corporation.")).format(platform_name=settings.PLATFORM_NAME)}</p>
+<h1>${Text(_(u"{mdash} R&D you can run (with){sm}")).format(mdash=HTML("&mdash;"), sm=HTML("<sup style='font-size: 65%'>&#8480;</sup>"))}</h1>
